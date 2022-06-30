@@ -445,9 +445,27 @@ Header Style
 }
 
 .header-area .main-nav .nav li:hover a,
-.header-area .main-nav .nav li a.active {
+.header-area .main-nav .nav li a.active1 {
   color: #fff;
-  background-color: #7453fc;
+  background-color: #FFB411;
+}
+
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active2 {
+  color: #fff;
+  background-color: #009AEC;
+}
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active3 {
+  color: #fff;
+  background-color: #01C25B;
+}
+
+
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active {
+  color: black;
+  background-color: white;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -813,7 +831,7 @@ Categories & Collections Style
 */
 
 .categories-collections {
-  background-image: url(../images/dark-bg.jpg);
+  color: #eee;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -832,7 +850,8 @@ Categories & Collections Style
 }
 
 .categories .item {
-  background-color: #282b2f;
+  background-image: url(../images/blueandblack.jpg);
+  /*background-color: #282b2f;*/
   text-align: center;
   padding: 30px;
   border-radius: 20px;
